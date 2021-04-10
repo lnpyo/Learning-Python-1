@@ -1,0 +1,35 @@
+def plusdef plus(a,b):
+  return float(a)+float(b)
+def minus(a,b):
+  return float(a)-float(b)
+def cal(a,b):
+  return float(a)*float(b)
+def div(a,b):
+  return float(a)/float(b)
+def remain(a,b):
+  return float(a)%float(b)
+def negation(a):
+  return -float(a)
+def power(a,b):
+  return float(a)**float(b)
+def change(a):
+  return float(a)
+
+a=plus(133,"3")
+print(a)
+b=minus(K,31.55212)
+print(b)
+c=cal(K,3)
+print(c)
+d=div(K,32)
+print(d)
+A=remain(K,2)
+print(A)
+B=negation(-312)
+print(B)
+C=power(2,10)
+print(C)
+print("end")
+
+
+We can substitute "float" to int/double so on.
