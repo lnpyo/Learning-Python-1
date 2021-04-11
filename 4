@@ -1,0 +1,35 @@
+from cal import plus
+
+
+print(plus(1.22, 11))
+
+
+b= "3.4"
+print(type(b))
+
+float(b)
+print(type(b))
+print(b)
+
+
+
+print(plus(3,4))
+print(plus(b,4))
+print(plus("3.113",4))
+
+
+
+
+
+[cal.py]
+def plus(a,b):
+  if type(a) is not float:
+    print("a is not int")
+    return b+float(a)
+  elif type(b) is not float:
+    print("b is not int")
+    return a+float(b)  
+  else:
+    return a+b
+
+
