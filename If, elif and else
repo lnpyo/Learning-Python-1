@@ -1,0 +1,17 @@
+def police(name,age):
+  print(f"Hey {name}, good to see you again")
+  print(f"your age is {age} years old")
+  if age >= 18:
+    print("You are eligible to drink")
+  elif age <18 and age>=16:
+    print("Bring your parent Kid")
+  else:
+    print("Okay, you should go to home rn")
+
+
+police("Jin",23)
+print()
+print()
+print()
+print()
+police("Alice",13)
